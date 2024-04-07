@@ -12,7 +12,7 @@ public class game {
 
         int score = 0; // Initialize score
 
-        booleann playAgain = true;
+        boolean playAgain = true;
         while (playAgain) {
             int randomNumber = generateRandomNumber(minRange, maxRange);
             int attemptCount = 0; // Initialize attempt count for each round
